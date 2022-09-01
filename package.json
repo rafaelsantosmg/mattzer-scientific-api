@@ -1,0 +1,23 @@
+{
+  "name": "mattzer-scientific-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "install": "./apps_install.sh",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compose:up": "docker-compose up -d --build",
+    "compose:down": "docker-compose down --remove-orphans"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafaelsantosmg/mattzer-scientific-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rafaelsantosmg/mattzer-scientific-api/issues"
+  },
+  "homepage": "https://github.com/rafaelsantosmg/mattzer-scientific-api#readme"
+}
